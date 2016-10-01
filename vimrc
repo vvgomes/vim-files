@@ -14,6 +14,7 @@ Plug 'itchyny/lightline.vim'
 Plug 'junegunn/seoul256.vim'
 call plug#end()
 
+" ctrlp
 let g:ctrlp_match_window_bottom = 0
 let g:ctrlp_match_window_reversed = 0
 let g:ctrlp_custom_ignore = {
@@ -22,12 +23,15 @@ let g:ctrlp_custom_ignore = {
   \ }
 let g:ctrlp_reuse_window = 'netrw\|startify'
 
+" theme
 let g:seoul256_background = 234
 colorscheme seoul256
 
+" status line
 let g:lightline = { 'colorscheme': 'seoul256' }
 set laststatus=2
 
+" nerd tree
 let g:NERDTreeDirArrowExpandable = '‣'
 let g:NERDTreeDirArrowCollapsible = '▾'
 map <F2> :NERDTreeToggle<CR>
