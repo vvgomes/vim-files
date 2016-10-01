@@ -1,6 +1,6 @@
 # vim-files
 
-Minimalistic [Vim](http://www.vim.org/) configurations. Highly based on the [vim-files](https://github.com/jvortmann/vim-files) by [@jvormann](https://github.com/jvortmann) (one of the greatest Vimmers of my generation) but simplified and opinionated based on my personal preferences.
+Minimalistic [Vim](http://www.vim.org/) configurations. Highly based on [vim-files](https://github.com/jvortmann/vim-files) by [@jvormann](https://github.com/jvortmann) (one of the greatest Vimmers of my generation) but simplified and opinionated based on my personal preferences.
 
 ## Getting Started
 
