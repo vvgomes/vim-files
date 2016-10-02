@@ -35,6 +35,7 @@ set laststatus=2
 let g:NERDTreeDirArrowExpandable = '‣'
 let g:NERDTreeDirArrowCollapsible = '▾'
 noremap <silent> <F2> :NERDTreeToggle<Return>
+autocmd bufenter * if (winnr("$") == 1 && exists("b:NERDTree") && b:NERDTree.isTabTree()) | q | endif
 
 set relativenumber
 set numberwidth=4
