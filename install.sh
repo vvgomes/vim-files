@@ -7,6 +7,9 @@ echo "> Installing vim-files..."
 
 ln -sfhv $(pwd) ~/.vim >/dev/null 2>&1
 ln -sfhv ~/.vim/vimrc ~/.vimrc >/dev/null 2>&1
+if [ "$1" == "--with-ideavim" ]; then
+  ln -sfhv ~/.vim/ideavimrc ~/.ideavimrc >/dev/null 2>&1
+fi
 echo -e "${GREEN}✓${NC} Symlinks created."
 
 curl -fLo ~/.vim/autoload/plug.vim --create-dirs \
