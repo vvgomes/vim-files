@@ -20,7 +20,7 @@ You should be good to go.
 
 ## Intellij
 
-For [IdeaVim](https://github.com/JetBrains/ideavim) users in Intellij there is an `ideavim` version of the original `vimrc`. To get it installed together, run the install script with the following flag:
+For [IdeaVim](https://github.com/JetBrains/ideavim) users in [Intellij](http://www.jetbrains.com/idea/) there is an `ideavim` version of the original `vimrc`. To get it installed together, run the install script with the following flag:
 
 ```
 $ ./install.sh --with-ideavim
