@@ -23,7 +23,7 @@ You should be good to go.
 For [IdeaVim](https://github.com/JetBrains/ideavim) users in Intellij there is an `ideavim` version of the original `vimrc`. To get it installed together, run the install script with the following flag:
 
 ```
-$ ./install.sh --with-deavim
+$ ./install.sh --with-ideavim
 ```
 
 In case you want only the `ideavim` version, you can just download it this way:
