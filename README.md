@@ -18,6 +18,21 @@ You should be good to go.
 - Look-and-feel works better with [Powerline Fonts](https://github.com/powerline/fonts).
 - We use [vim-plug](https://github.com/junegunn/vim-plug) as the plugin manager (so you can add more plugins you like).
 
+## Intellij
+
+For [IdeaVim](https://github.com/JetBrains/ideavim) users in Intellij there is an `ideavim` version of the original `vimrc`. To get it installed together, run the install script with the following flag:
+
+```
+$ ./install.sh --with-deavim
+```
+
+In case you want only the `ideavim` version, you can just download it this way:
+
+```
+curl -fLo ~/.ideavim \
+  https://raw.githubusercontent.com/vvgomes/vim-files/master/ideavimrc
+```
+
 ## License
 
 Feel free to use this code the way you want.
