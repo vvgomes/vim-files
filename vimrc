@@ -34,7 +34,7 @@ set laststatus=2
 " nerd tree
 let g:NERDTreeDirArrowExpandable = '‣'
 let g:NERDTreeDirArrowCollapsible = '▾'
-map <F2> :NERDTreeToggle<CR>
+noremap <silent> <F2> :NERDTreeToggle<Return>
 
 set relativenumber
 set numberwidth=4
