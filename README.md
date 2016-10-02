@@ -29,7 +29,7 @@ $ ./install.sh --with-ideavim
 In case you want only the `ideavim` version, you can just download it this way:
 
 ```
-curl -fLo ~/.ideavim \
+$ curl -fLo ~/.ideavim \
   https://raw.githubusercontent.com/vvgomes/vim-files/master/ideavimrc
 ```
 
