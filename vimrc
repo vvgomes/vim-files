@@ -12,6 +12,7 @@ Plug 'godlygeek/tabular'
 Plug 'scrooloose/nerdtree', { 'on': 'NERDTreeToggle' }
 Plug 'itchyny/lightline.vim'
 Plug 'junegunn/seoul256.vim'
+Plug 'samsonw/vim-task'
 call plug#end()
 
 " ctrlp
